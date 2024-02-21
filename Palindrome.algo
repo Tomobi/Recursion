@@ -1,0 +1,22 @@
+FUNCTION is_palindrome (word: ARRAY_OF STRING) : STRING
+VAR
+    result = STRING ;
+    start = 0;
+    end = length - 1;
+BEGIN
+    WHILE ( start < end ) 
+    IF start != end THEN
+        RETURN false
+    
+        start = start + 1
+        end = end - 1 
+    RETURN true
+    END_IF
+        word := "kayak"
+
+    IF is_palindrome(word):
+        Write("Word is a palindrome");
+    else:
+        Write("Word is not a palindrome");
+
+END
